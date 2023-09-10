@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Pabau Task</title>
+  </head>
+  <body>
+    <div class="container form-wrapper">
+      <form id="form-wrapper">
+        <div class="checkbox-item">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="internship"
+            class="checkbox"
+            value="Internship"
+          />
+          <span>Internship</span>
+        </div>
+        <div class="checkbox-item">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="pabau"
+            class="checkbox"
+            value="Pabau"
+          />
+          <span>Pabau</span>
+        </div>
+        <div class="checkbox-item">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="employment"
+            class="checkbox"
+            value="Employment"
+          />
+          <span>Employment</span>
+        </div>
+        <div class="checkbox-item">
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="career"
+            class="checkbox"
+            value="Career"
+          />
+          <span>Career</span>
+        </div>
+      </form>
+      <div class="button shuffle-button">
+        <button onclick="shuffleValues()">Shuffle Values</button>
+      </div>
+      <div class="button change-button">
+        <button onclick="changeValues()">Change Values</button>
+      </div>
+      <div class="button selected-button">
+        <button onclick="showSelectedValues()">Show Selected Values</button>
+      </div>
+      <span>Selected Values: </span
+      ><input type="text" id="show" name="vehicle" /><br />
+    </div>
+  </body>
+</html>
